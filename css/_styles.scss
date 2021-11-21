@@ -110,3 +110,68 @@ body {
     }
 
 }
+
+footer {
+    background-color: #1143e7;
+    height: auto;
+    color: white;
+    margin-top: 2rem;
+
+    .left-footer {
+        .social-media {
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                color: white;
+                font-size: 1rem;
+
+                &:hover {
+                    color: #081d61;
+                }
+            }
+        }
+
+        .footer-logo {
+            color: white;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+    }
+
+    .right-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                color: #747474;
+            }
+        }
+
+        .content {
+            h5 {
+                margin-bottom: 15px;
+            }
+
+            li {
+                margin-bottom: 5px;
+            }
+
+        }
+    }
+
+
+}
